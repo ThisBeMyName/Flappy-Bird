@@ -9,6 +9,7 @@ hole.addEventListener('animationiteration', () => {
     var random = -((Math.random() * 300) + 150);
     hole.style.top = random + "px";
     counter++;
+    document.getElementById("message").innerHTML = ("Score: " + counter);
 });
 
 
